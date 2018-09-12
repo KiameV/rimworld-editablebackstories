@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+	<REB.EditableBackstories>Editable Backstories</REB.EditableBackstories>
+	
+	<REB.UseLiteMode>Use "Lite Mode."</REB.UseLiteMode>
+	<REB.UseLiteModeTip>By default, "Editable Backstories" completely replaces the vanilla backstory database. However, if this box is checked, the mod will instead merely add items to the database. Vanilla backstories will not be deleted (and won't be editable), but your custom backstories will be added to the game.
+
+NOTE THAT IF YOU CHANGE THIS SETTING, YOU MUST SHUT DOWN AND RESTART "RIMWORLD" BEFORE THE CHANGE WILL TAKE EFFECT.
+
+ALSO, DO NOT CHANGE THE SETTING DURING THE MIDDLE OF A GAME IN PROGRESS. DOING SO WILL CAUSE PAWNS TO HAVE THEIR BACKSTORIES RANDOMLY REASSIGNED!</REB.UseLiteModeTip>
+	
+</LanguageData>

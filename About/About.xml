@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+
+	<name>Editable Backstories - B19</name>
+	<author>Rainbeau Flambe</author>
+	<url></url>
+	<targetVersion>0.19.0</targetVersion>
+	<description>
+Are you tired of running into characters in your game with horribly overpowered or just plain silly backstories? Are you frustrated by the number of colonists you have to feed who aren't willing to work to earn their keep because their backgrounds prevent them from doing manual labor? Does it annoy you when you find a backstory you like with the "Prepare Carefully" mod, only to notice that the gender pronouns or even the pawn's name don't change to fit your character? Do you just hate not being able to do anything about typos that you spot in backstories?
+
+Well, fret no more! Your worries are over!
+
+"Editable Backstories" replaces RimWorld's default backstories with a completely editable set of backstories contained in convenient XML files. Yes, that's right. It doesn't just add editable backstories to the vanilla database. It completely replaces that database.
+
+(Well, it *does* have a "lite" option that allows you to just add to the database, but by default, it replaces it.)
+
+You can use the mod "straight out of the box," so to speak, as I've included a set of "cleaned up" basic backstories which will be used if all you do is just install and run the mod. None of them are unreasonably powerful or, in my opinion, lore-breaking, none have hard-coded pronouns or names, and I'm pretty sure that they're mostly free of typos.
+
+But the real point of "Editable Backstories," of course, is that it allows you to edit and add stories yourself. In the "XML Raw Data" folder within the mod's directory, you'll find files containing the full collection of backstories from the vanilla game. In the "Documentation" folder, you'll find detailed instructions to help you put together your own "perfect" backstory collection.
+
+As I already noted, unless you're using the "lite mode" option, the mod removes all vanilla backstories from the game, so no pawn bios will ever again include material that you don't have the option to edit. This means that you won't meet any of the "Pirate King" characters, those characters created by RimWorld Kickstarter backers, whose childhood and adulthood stories are linked. However, "Editable Backstories" allows you to create your own linked stories, so if you happen to like a particular "Pirate King" pawn, you can easily add him or her back into your world, complete with any edits or fixes you deem appropriate.
+
+Additionally, while it doesn't remove any potential pawn names from the game, "Editable Backstories" does let you to add as many new names (first names, surnames, nicknames, and/or full names) to your game as you desire.
+
+- Rainbeau Flambe (dburgdorf)
+
+=====
+
+Compatibility:
+
+"Editable Backstories" requires a new game. If you try to add it to (or remove it from) a game in progress, every pawn in the world will end up with new randomly-assigned backstories. (On a related note, don't try to switch between regular and "lite mode" in the middle of a game, for the same reason.)
+
+The mod is compatible with both "EdB Prepare Carefully" and "Verify Start."
+
+It is also fully compatible with any mods that utilize Erdelf's "Humanoid Alien Races" framework.
+
+=====
+
+Special Note:
+
+I completely understand why backstories aren't editable by default. And I mean absolutely no disrespect to those who backed RimWorld on Kickstarter back in 2013 (or have purchased the "Name in Game Pack" since then) and got their stories written into the game as a result. But at the same time, I'm a modder. Changing things I don't like about the game is what I do. And the fact that backstories can't be edited, even though I understand it, is something that I don't like.
+
+=====
+
+Credits:
+
+Some of the C# code in "Editable Backstories" (specifically, the code that allows data to be read from XML files) derives from code in Erdelf's "Humanoid Alien Races."
+
+The mod utilizes Pardeike's "Harmony Patch Library." (No additional download is required, as the library is included with the mod.)
+
+=====
+
+License:
+
+If you're a modpack maker and want to include "Editable Backstories" in your pack, or if you're a modder and want to use it as the basis of a derivative mod, please feel free to do so. I ask only that you let me know about it. 
+
+=====
+
+If you have any (helpful) suggestions for improvement, please let me know!
+
+	</description>
+
+</ModMetaData>
