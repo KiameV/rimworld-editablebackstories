@@ -1,7 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ModSyncNinjaData>
-  <ID>80e51821-a215-4473-9e19-74fba4243dad</ID>
-  <ModName>Rainbeau's Editable Backstories</ModName>
-  <Version>180107.1</Version>
+  <ModName>Editable Backstories</ModName>
+  <Version>0.19.0.1</Version>
   <SaveBreaking>False</SaveBreaking>
+  <Host name="Github">
+    <Owner>KiameV</Owner>
+    <Project>rimworld-editablebackstories</Project>
+    <AboutDir>About</AboutDir>
+    <DownloadFrom>ModSyncReleases</DownloadFrom>
+    <Branch>master</Branch>
+  </Host>
 </ModSyncNinjaData>
