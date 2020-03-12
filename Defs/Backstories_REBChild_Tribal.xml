@@ -28,6 +28,9 @@
 			<li><key>Mining</key><value>3</value></li>
 			<li><key>Construction</key><value>3</value></li>
 		</skillGains>
+		<forcedTraits>
+			<li><key>Undergrounder</key><value>0</value></li>
+		</forcedTraits>
 		<spawnCategories>
 			<li>Tribal</li>
 		</spawnCategories>
@@ -420,4 +423,21 @@
 		</spawnCategories>
 	</REB_Code.BackstoryDef>
 	
+	<REB_Code.BackstoryDef>
+		<defName>REBC201</defName>
+		<slot>Childhood</slot>
+		<title>Apprentice oracle</title>
+		<titleShort>Oracle</titleShort>
+		<baseDesc>[PAWN_nameDef] was chosen at an early age by [PAWN_possessive] village's elders to keep the sacred rituals of the Oracle. An irrepressibly curious child, [PAWN_pronoun] caused a religious crisis for [PAWN_possessive] tribe when [PAWN_pronoun] found and accidentally flipped a hidden switch that opened the "tombs" of the gods... cryptosleep caskets inhabited by some very confused ancestors.</baseDesc>
+		<skillGains>
+			<li><key>Intellectual</key><value>4</value></li>
+			<li><key>Social</key><value>2</value></li>
+			<li><key>Medicine</key><value>2</value></li>
+		</skillGains>
+		<spawnCategories>
+			<li>Tribal</li>
+			<li>Rare</li>
+		</spawnCategories>
+	</REB_Code.BackstoryDef>
+
 </Defs>

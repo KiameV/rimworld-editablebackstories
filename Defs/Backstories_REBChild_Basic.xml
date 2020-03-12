@@ -54,6 +54,9 @@
 			<li><key>Mining</key><value>2</value></li>
 			<li><key>Shooting</key><value>-2</value></li>
 		</skillGains>
+		<forcedTraits>
+			<li><key>Undergrounder</key><value>0</value></li>
+		</forcedTraits>
 		<spawnCategories>
 			<li>Civil</li>
 			<li>Raider</li>
@@ -78,6 +81,9 @@
 			<li><key>Shooting</key><value>-2</value></li>
 		</skillGains>
 		<bodyTypeGlobal>Hulk</bodyTypeGlobal>
+		<forcedTraits>
+			<li><key>Undergrounder</key><value>0</value></li>
+		</forcedTraits>
 		<spawnCategories>
 			<li>Civil</li>
 			<li>Raider</li>
@@ -1907,5 +1913,201 @@
 			<li>Traveler</li>
 		</spawnCategories>
 	</REB_Code.BackstoryDef>
+
+	<REB_Code.BackstoryDef>
+		<defName>REBC202</defName>
+		<slot>Childhood</slot>
+		<title>Dusty farm hand</title>
+		<titleShort>Farm hand</titleShort>
+		<baseDesc>Almost from the day [PAWN_pronoun] learned to walk, [PAWN_nameDef] had to help care for the animals and crops that [PAWN_possessive] people tended in their arid homeland. The difficult work toughened [PAWN_objective], but left little time for intellectual activities.</baseDesc>
+		<workDisables>
+			<li>Intellectual</li>
+			<li>Artistic</li>
+		</workDisables>
+		<skillGains>
+			<li><key>Plants</key><value>2</value></li>
+			<li><key>Medicine</key><value>1</value></li>
+			<li><key>Animals</key><value>2</value></li>
+		</skillGains>
+		<spawnCategories>
+			<li>Civil</li>
+			<li>Raider</li>
+			<li>Slave</li>
+			<li>Trader</li>
+			<li>Traveler</li>
+		</spawnCategories>
+	</REB_Code.BackstoryDef>
+	
+	<REB_Code.BackstoryDef>
+		<defName>REBC203</defName>
+		<slot>Childhood</slot>
+		<title>Plague child</title>
+		<titleShort>Plague child</titleShort>
+		<baseDesc>Born on a world wracked by plague, [PAWN_nameDef] lost family members and friends to the disease at a young age. [PAWN_pronoun] learned some medicine from the plague doctors, but was mentally scarred by the ordeal, and tends to keep others at an emotional distance.</baseDesc>
+		<workDisables>
+			<li>Social</li>
+		</workDisables>
+		<skillGains>
+			<li><key>Intellectual</key><value>2</value></li>
+			<li><key>Medicine</key><value>4</value></li>
+		</skillGains>
+		<spawnCategories>
+			<li>Civil</li>
+			<li>Raider</li>
+			<li>Slave</li>
+			<li>Trader</li>
+			<li>Traveler</li>
+		</spawnCategories>
+	</REB_Code.BackstoryDef>
+	
+	<REB_Code.BackstoryDef>
+		<defName>REBC204</defName>
+		<slot>Childhood</slot>
+		<title>Street peddler</title>
+		<titleShort>Peddler</titleShort>
+		<baseDesc>Growing up poor on an industrial midworld, [PAWN_nameDef] helped support his family by making small trinkets and novelties to sell to passersby. [PAWN_pronoun] also learned, of necessity, to fight back against those who tried to take [PAWN_possessive] trinkets by force.</baseDesc>
+		<skillGains>
+			<li><key>Melee</key><value>2</value></li>
+			<li><key>Social</key><value>2</value></li>
+			<li><key>Crafting</key><value>3</value></li>
+		</skillGains>
+		<spawnCategories>
+			<li>Civil</li>
+			<li>Raider</li>
+			<li>Slave</li>
+			<li>Trader</li>
+			<li>Traveler</li>
+		</spawnCategories>
+	</REB_Code.BackstoryDef>
+
+	<REB_Code.BackstoryDef>
+		<defName>REBC205</defName>
+		<slot>Childhood</slot>
+		<title>Writer</title>
+		<titleShort>Writer</titleShort>
+		<baseDesc>An enthusiastic student of many subjects, [PAWN_nameDef] also had a talent for writing, and so became the author of a popular online journal. Writing anonymously, to hide [PAWN_possessive] age, [PAWN_pronoun] expounded on topics ranging from bioethics to political theory to xenosociology.</baseDesc>
+		<skillGains>
+			<li><key>Intellectual</key><value>6</value></li>
+		</skillGains>
+		<spawnCategories>
+			<li>Civil</li>
+			<li>Raider</li>
+			<li>Slave</li>
+			<li>Trader</li>
+			<li>Traveler</li>
+		</spawnCategories>
+	</REB_Code.BackstoryDef>
+	
+	<REB_Code.BackstoryDef>
+		<defName>REBC206</defName>
+		<slot>Childhood</slot>
+		<title>Discarded youth</title>
+		<titleShort>Discarded youth</titleShort>
+		<baseDesc>[PAWN_nameDef] grew up isolated on a "trash" planet, the dumping ground for nearby glitterworlds. It was a harsh home, that required [PAWN_objective] to create from junk much of what [PAWN_pronoun] needed to survive. Against the odds, [PAWN_pronoun] not only survived, but thrived.</baseDesc>
+		<workDisables>
+			<li>Artistic</li>
+			<li>Cleaning</li>
+			<li>PlantWork</li>
+		</workDisables>
+		<skillGains>
+			<li><key>Construction</key><value>4</value></li>
+			<li><key>Crafting</key><value>4</value></li>
+		</skillGains>
+		<spawnCategories>
+			<li>Civil</li>
+			<li>Raider</li>
+			<li>Slave</li>
+			<li>Trader</li>
+			<li>Traveler</li>
+		</spawnCategories>
+	</REB_Code.BackstoryDef>
+	
+	<REB_Code.BackstoryDef>
+		<defName>REBC207</defName>
+		<slot>Childhood</slot>
+		<title>Antisocial child</title>
+		<titleShort>Antisocial</titleShort>
+		<baseDesc>[PAWN_nameDef] lacked typical social skills, and deliberately avoided social interaction. [PAWN_pronoun] gained satisfaction only from steady work. [PAWN_pronoun] especially disliked speaking with overly creative or outgoing individuals.</baseDesc>
+		<workDisables>
+			<li>Social</li>
+			<li>Artistic</li>
+		</workDisables>
+		<skillGains>
+			<li><key>Intellectual</key><value>4</value></li>
+			<li><key>Crafting</key><value>2</value></li>
+		</skillGains>
+		<spawnCategories>
+			<li>Civil</li>
+			<li>Raider</li>
+			<li>Slave</li>
+			<li>Trader</li>
+			<li>Traveler</li>
+		</spawnCategories>
+	</REB_Code.BackstoryDef>
+	
+	<REB_Code.BackstoryDef>
+		<defName>REBC208</defName>
+		<slot>Childhood</slot>
+		<title>Desert rat</title>
+		<titleShort>Desert rat</titleShort>
+		<baseDesc>[PAWN_nameDef] was born to a tribe of desert ascetics who wandered the endless wastes. They sought a mythical substance they believed could liberate them from ignorance through psychedelic revelation, and usher in a new period of interstellar peace. But while [PAWN_pronoun] learned a fair bit about medicine and psychedelic drugs, revelation and peace remained elusive.</baseDesc>
+		<skillGains>
+			<li><key>Intellectual</key><value>2</value></li>
+			<li><key>Melee</key><value>-2</value></li>
+			<li><key>Medicine</key><value>4</value></li>
+		</skillGains>
+		<spawnCategories>
+			<li>Civil</li>
+			<li>Raider</li>
+			<li>Slave</li>
+			<li>Trader</li>
+			<li>Traveler</li>
+			<li>Uncommon</li>
+		</spawnCategories>
+	</REB_Code.BackstoryDef>
+
+	<REB_Code.BackstoryDef>
+		<defName>REBC209</defName>
+		<slot>Childhood</slot>
+		<title>Pet keeper</title>
+		<titleShort>Pet keeper</titleShort>
+		<baseDesc>[PAWN_nameDef] spent most of [PAWN_possessive] childhood tending the animals [PAWN_pronoun] had bought or rescued. [PAWN_pronoun] saw far more beauty in natural things than in fabricated objects, and often chose the company of [PAWN_possessive] pets over that of [PAWN_possessive] peers.</baseDesc>
+		<skillGains>
+			<li><key>Medicine</key><value>4</value></li>
+			<li><key>Animals</key><value>6</value></li>
+			<li><key>Social</key><value>-2</value></li>
+			<li><key>Crafting</key><value>-2</value></li>
+			<li><key>Construction</key><value>-2</value></li>
+		</skillGains>
+		<spawnCategories>
+			<li>Civil</li>
+			<li>Raider</li>
+			<li>Slave</li>
+			<li>Trader</li>
+			<li>Traveler</li>
+		</spawnCategories>
+	</REB_Code.BackstoryDef>
+	
+	<REB_Code.BackstoryDef>
+		<defName>REBC210</defName>
+		<slot>Childhood</slot>
+		<title>Corporate slave</title>
+		<titleShort>Slave</titleShort>
+		<baseDesc>[PAWN_nameDef] grew up in a colony owned by a large glitterworld corporation. Implanted with a virtual reality device at a young age, [PAWN_pronoun] was raised in a brutal digital world. Constantly forced to fight others for the entertainment of the wealthy, gun play and tactics became the center of [PAWN_possessive] universe.</baseDesc>
+		<skillGains>
+			<li><key>Plants</key><value>-2</value></li>
+			<li><key>Shooting</key><value>6</value></li>
+			<li><key>Melee</key><value>4</value></li>
+			<li><key>Social</key><value>-2</value></li>
+			<li><key>Animals</key><value>-2</value></li>
+		</skillGains>
+		<spawnCategories>
+			<li>Civil</li>
+			<li>Raider</li>
+			<li>Slave</li>
+			<li>Trader</li>
+			<li>Traveler</li>
+		</spawnCategories>
+	</REB_Code.BackstoryDef>	
 	
 </Defs>

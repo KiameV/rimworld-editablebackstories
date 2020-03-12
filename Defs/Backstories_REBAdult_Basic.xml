@@ -564,6 +564,9 @@
 			<li><key>Mining</key><value>8</value></li>
 			<li><key>Crafting</key><value>3</value></li>
 		</skillGains>
+		<forcedTraits>
+			<li><key>Undergrounder</key><value>0</value></li>
+		</forcedTraits>
 		<spawnCategories>
 			<li>Civil</li>
 			<li>Raider</li>
@@ -2334,6 +2337,9 @@
 			<li><key>Mining</key><value>6</value></li>
 			<li><key>Social</key><value>2</value></li>
 		</skillGains>
+		<forcedTraits>
+			<li><key>Undergrounder</key><value>0</value></li>
+		</forcedTraits>
 		<spawnCategories>
 			<li>Civil</li>
 			<li>Raider</li>
@@ -2622,6 +2628,163 @@
 		</skillGains>
 		<spawnCategories>
 			<li>Civil</li>
+			<li>Slave</li>
+			<li>Trader</li>
+			<li>Traveler</li>
+		</spawnCategories>
+	</REB_Code.BackstoryDef>
+
+	<REB_Code.BackstoryDef>
+		<defName>REBA201</defName>
+		<slot>Adulthood</slot>
+		<title>Battle mechanic</title>
+		<titleShort>Mechanic</titleShort>
+		<baseDesc>[PAWN_nameDef] worked with a group of mercenaries in an early fusion-era system. [PAWN_pronoun] was unusually obsessed with gathering the right gear, and often customized [PAWN_possessive] equipment with original modifications.</baseDesc>
+		<skillGains>
+			<li><key>Shooting</key><value>5</value></li>
+			<li><key>Melee</key><value>3</value></li>
+			<li><key>Crafting</key><value>4</value></li>
+		</skillGains>
+		<spawnCategories>
+			<li>Civil</li>
+			<li>Raider</li>
+			<li>Slave</li>
+			<li>Trader</li>
+			<li>Traveler</li>
+		</spawnCategories>
+	</REB_Code.BackstoryDef>
+
+	<REB_Code.BackstoryDef>
+		<defName>REBA202</defName>
+		<slot>Adulthood</slot>
+		<title>Plague doctor</title>
+		<titleShort>Doctor</titleShort>
+		<baseDesc>[PAWN_nameDef] provided medical care on multiple plague-wracked worlds. [PAWN_pronoun] improved conditions for those under quarantine, while administering complex medical treatments and developing medications. [PAWN_possessive] obsession with helping the sick left precious little time, though, for a life outside of [PAWN_possessive] work.</baseDesc>
+		<workDisables>
+			<li>Violent</li>
+			<li>Artistic</li>
+		</workDisables>
+		<skillGains>
+			<li><key>Intellectual</key><value>6</value></li>
+			<li><key>Social</key><value>-2</value></li>
+			<li><key>Medicine</key><value>8</value></li>
+		</skillGains>
+		<spawnCategories>
+			<li>Civil</li>
+			<li>Slave</li>
+			<li>Trader</li>
+			<li>Traveler</li>
+		</spawnCategories>
+	</REB_Code.BackstoryDef>
+
+	<REB_Code.BackstoryDef>
+		<defName>REBA203</defName>
+		<slot>Adulthood</slot>
+		<title>Private detective</title>
+		<titleShort>Detective</titleShort>
+		<baseDesc>As a private eye, sharp wits and a silver tongue were [PAWN_nameDef]'s greatest tools. [PAWN_pronoun] often spent [PAWN_possessive] nights working cases that ranged from uncovering affairs and learning trade secrets to solving murders and infiltrating criminal organizations. There wasn't a case [PAWN_pronoun] wouldn't accept for the right price.</baseDesc>
+		<workDisables>
+			<li>PlantWork</li>
+			<li>Mining</li>
+		</workDisables>
+		<skillGains>
+			<li><key>Melee</key><value>2</value></li>
+			<li><key>Shooting</key><value>4</value></li>
+			<li><key>Intellectual</key><value>4</value></li>
+			<li><key>Social</key><value>6</value></li>
+		</skillGains>
+		<spawnCategories>
+			<li>Civil</li>
+			<li>Raider</li>
+			<li>Slave</li>
+			<li>Trader</li>
+			<li>Traveler</li>
+		</spawnCategories>
+	</REB_Code.BackstoryDef>
+
+	<REB_Code.BackstoryDef>
+		<defName>REBA204</defName>
+		<slot>Adulthood</slot>
+		<title>Shock trooper</title>
+		<titleShort>Shocktroop</titleShort>
+		<baseDesc>[PAWN_nameDef] was in a deep space shock troop unit deployed on multiple planets in various wars. During a risky assault, [PAWN_possessive] whole unit was wiped out. Nobody else knew what happened on the field that day, but [PAWN_nameDef] will carry the burden forever.</baseDesc>
+		<workDisables>
+			<li>Social</li>
+		</workDisables>
+		<skillGains>
+			<li><key>Shooting</key><value>8</value></li>
+			<li><key>Melee</key><value>6</value></li>
+			<li><key>Medicine</key><value>2</value></li>
+		</skillGains>
+		<spawnCategories>
+			<li>Civil</li>
+			<li>Raider</li>
+			<li>Slave</li>
+			<li>Trader</li>
+			<li>Traveler</li>
+		</spawnCategories>
+		<bodyTypeGlobal>Hulk</bodyTypeGlobal>
+	</REB_Code.BackstoryDef>
+
+	<REB_Code.BackstoryDef>
+		<defName>REBA205</defName>
+		<slot>Adulthood</slot>
+		<title>Adventurer</title>
+		<titleShort>Adventurer</titleShort>
+		<baseDesc>[PAWN_nameDef]'s thirst for adventure took [PAWN_objective] to many planets. [PAWN_pronoun] visited the brightest glitterworlds and the darkest war-torn toxic planets in [PAWN_possessive] quest to find novelty and excitement. [PAWN_pronoun] worked as little as possible, often skirting ethical boundaries to make a quick buck.</baseDesc>
+		<skillGains>
+			<li><key>Shooting</key><value>4</value></li>
+			<li><key>Melee</key><value>2</value></li>
+			<li><key>Social</key><value>4</value></li>
+			<li><key>Medicine</key><value>2</value></li>
+			<li><key>Crafting</key><value>2</value></li>
+			<li><key>Animals</key><value>2</value></li>
+		</skillGains>
+		<spawnCategories>
+			<li>Civil</li>
+			<li>Raider</li>
+			<li>Slave</li>
+			<li>Trader</li>
+			<li>Traveler</li>
+		</spawnCategories>
+	</REB_Code.BackstoryDef>
+
+	<REB_Code.BackstoryDef>
+		<defName>REBA206</defName>
+		<slot>Adulthood</slot>
+		<title>Tinkerer</title>
+		<titleShort>Tinkerer</titleShort>
+		<baseDesc>"How does this work? Why does this move? Maybe if I change this.... Oops.... I hope this works better.... Um, maybe I broke it? Oh, wait, no, it seems good now...."</baseDesc>
+		<skillGains>
+			<li><key>Construction</key><value>2</value></li>
+			<li><key>Intellectual</key><value>4</value></li>
+			<li><key>Artistic</key><value>2</value></li>
+			<li><key>Crafting</key><value>6</value></li>
+		</skillGains>
+		<spawnCategories>
+			<li>Civil</li>
+			<li>Raider</li>
+			<li>Slave</li>
+			<li>Trader</li>
+			<li>Traveler</li>
+		</spawnCategories>
+		<bodyTypeGlobal>Thin</bodyTypeGlobal>
+	</REB_Code.BackstoryDef>
+	
+	<REB_Code.BackstoryDef>
+		<defName>REBA207</defName>
+		<slot>Adulthood</slot>
+		<title>Techno-philosopher</title>
+		<titleShort>Sage</titleShort>
+		<baseDesc>[PAWN_nameDef] spent years surveying abandoned data centers, studying ancient artifacts and decrypting archaic coding languages. [PAWN_pronoun] claimed to be one of the few who could piece together the tragedies of the past, and offer a path to the future.</baseDesc>
+		<skillGains>
+			<li><key>Intellectual</key><value>6</value></li>
+			<li><key>Social</key><value>2</value></li>
+			<li><key>Crafting</key><value>4</value></li>
+		</skillGains>
+		<spawnCategories>
+			<li>Civil</li>
+			<li>Raider</li>
 			<li>Slave</li>
 			<li>Trader</li>
 			<li>Traveler</li>

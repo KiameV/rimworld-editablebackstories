@@ -1,34 +1,61 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
 
-	<name>Editable Backstories - B19</name>
-	<author>Rainbeau Flambe (original) &amp; Kiame Vivacity</author>
-	<url>https://ludeon.com/forums/index.php?board=15.0</url>
-	<targetVersion>0.19.0</targetVersion>
+	<name>[RF] Editable Backstories and Names - 1.1</name>
+	<author>Rainbeau Flambe (original), Kiame (upkeep)</author>
+	<url>https://ludeon.com/forums/index.php?topic=46165</url>
+	<supportedVersions>
+        <li>1.0</li>
+        <li>1.1</li>
+    </supportedVersions>
+	<packageId>editablebackstoriesandnames.rf.rw</packageId>
 	<description>
-Are you tired of running into characters in your game with horribly overpowered or just plain silly backstories? Are you frustrated by the number of colonists you have to feed who aren't willing to work to earn their keep because their backgrounds prevent them from doing manual labor? Does it annoy you when you find a backstory you like with the "Prepare Carefully" mod, only to notice that the gender pronouns or even the pawn's name don't change to fit your character? Do you just hate not being able to do anything about typos that you spot in backstories?
+
+Are you tired of running into characters in your game with horribly overpowered or just plain silly backstories? Are you frustrated by the number of colonists you have to feed who aren't willing to work to earn their keep because their backstories prevent them from doing manual labor? Does it annoy you when you find a backstory you like with the "Prepare Carefully" mod, only to notice that the gender pronouns or even the pawn's name don't change to fit your character? Do you just hate not being able to do anything about typos that you spot in backstories?
 
 Well, fret no more! Your worries are over!
 
-"Editable Backstories" replaces RimWorld's default backstories with a completely editable set of backstories contained in convenient XML files. Yes, that's right. It doesn't just add editable backstories to the vanilla database. It completely replaces that database.
-
-(Well, it *does* have a "lite" option that allows you to just add to the database, but by default, it replaces it.)
-
-You can use the mod "straight out of the box," so to speak, as I've included a set of "cleaned up" basic backstories which will be used if all you do is just install and run the mod. None of them are unreasonably powerful or, in my opinion, lore-breaking, none have hard-coded pronouns or names, and I'm pretty sure that they're mostly free of typos.
-
-But the real point of "Editable Backstories," of course, is that it allows you to edit and add stories yourself. In the "XML Raw Data" folder within the mod's directory, you'll find files containing the full collection of backstories from the vanilla game. In the "Documentation" folder, you'll find detailed instructions to help you put together your own "perfect" backstory collection.
-
-As I already noted, unless you're using the "lite mode" option, the mod removes all vanilla backstories from the game, so no pawn bios will ever again include material that you don't have the option to edit. This means that you won't meet any of the "Pirate King" characters, those characters created by RimWorld Kickstarter backers, whose childhood and adulthood stories are linked. However, "Editable Backstories" allows you to create your own linked stories, so if you happen to like a particular "Pirate King" pawn, you can easily add him or her back into your world, complete with any edits or fixes you deem appropriate.
-
-Additionally, while it doesn't remove any potential pawn names from the game, "Editable Backstories" does let you to add as many new names (first names, surnames, nicknames, and/or full names) to your game as you desire.
+"Editable Backstories and Names" dramatically improves, and gives you full control over, the game's backstory and name databases. It's ready to be used "out of the box," but also allows you to change pretty much anything, in whatever way you see fit. Details are below.
 
 - Rainbeau Flambe (dburgdorf)
 
 =====
 
+The Backstory Database:
+
+This mod provides you with a fully customizable database of more than 300 backstories which (by default) completely replaces RimWorld's vanilla backstory database. None of the backstories are unreasonably powerful or lore-breaking, none have hard-coded pronouns or names, and they're (mostly) free of typos. They're ready to be used as provided, but of course can be edited. (Please note, though, they can't edited from within the game itself. To edit them, you'll need to edit the mod's XML files. Instructions on how to do so can be found in its "Documentation" folder.)
+
+It also provides much more robust filtering of backstories than does the vanilla game. You should never again see pawns whose childhood and adulthood backstories contradict each other, with one providing penalties to skills or disabling work types that the other significantly buffs. Additionally, the mod provides brand new filters, so you can define certain backstories to only be available to pawns of a particular age or gender, define some backstories to be more or less common than others, and even define "sets" of backstories which will always and only be used together. (For example, in the mod's "out of the box" database, medieval backstories are flagged so that medieval childhoods will only ever be matched with medieval adulthoods, and vice versa.)
+
+=====
+
+The Names Database:
+
+This mod provides a significantly larger pool of random first and last names for colonists than is available in the vanilla game. (It provides more than 2,000 each male and female first names, as opposed to about 300 each in vanilla, and about 10,000 last names, as opposed to just 1,000 in vanilla.) The mod's database is drawn from lists of the most common names in pretty much every country of the world, so your pawns' names will have a truly mixed- and multicultural feel. But like the mod's backstory database, its name database not only replaces the vanilla database, but is completely customizable, so you have full control over the names that can appear in your games. If you wanted to include nothing but German first and last names, for example, you could play a game of RimWorld in which literally every non-tribal pawn has a German name.
+
+The names of colonists' pets draw from the same lists as do the names and nicknames of colonists themselves, so any changes you make to those lists will be reflected in the names colonists give their pets, as well as in the colonists' own names.
+
+(This mod does *not* alter tribal names in any way. For that, I'd recommend my "Tribal Pawn Names" mod, with which "Editable Backstories and Names" is fully compatible.)
+
+In addition to lists of first and last names, and of course nicknames, the mod also utilizes new lists of "sets" of first names and nicknames, allowing for randomly-named pawns to have intelligent nicknames. You might encounter a pawn named Jonathan with the nickname "Jon," for example, or perhaps a Cassandra known as "Cassie." 
+
+Not all names have to be randomly generated, of course. Just as there are defined full names in the vanilla game, some of them attached to certain specific backstories, the mod allows you to define full names for pawns who might show up in your own games, either with or without specifically-defined backstories.
+
+=====
+
+Configuration Options:
+
+"Use 'Lite Mode'": By default, "Editable Backstories" allows only its custom backstories to be selected randomly for new pawns. However, if this box is checked, the mod will instead allow new pawns to draw backstories from both its custom database and the vanilla database. (Note that vanilla backstories will always be visible and manually selectable when using a mod such as "Prepare Carefully," regardless of this option's setting.)
+	
+"Tag Backstories by Source": If this option is selected, backstory titles will be tagged to indicate their source, with "(Vanilla)" and "(VanillaPK)" indicating basic vanilla backstories and "Pirate King" designated backstories, respectively, "(REB)" indicating backstories added by this mod, and "(Other)" indicating backstories added by other mods. These tags can make it easy to tell what you're looking at when searching through backstories in "Prepare Carefully" or a similar mod. However, the tags will also be visible on the character bio windows within the game itself, so you probably won't want to turn the option on except when you're actually manually creating new pawns.
+	
+"Allow Vanilla 'Triple Names'": By default, the only predefined "triple" (or "full") names that will be available for random assignment to new pawns are the names defined in the mod's data files. If this box is checked, though, the "triple names" defined in the vanilla databases will also be available. (Note that even if you don't allow vanilla names, if you're playing in "lite" mode as defined above, the vanilla "Pirate King" pawns, whose names and bios are linked, can still show up in your games.)
+
+=====
+
 Compatibility:
 
-"Editable Backstories" requires a new game. If you try to add it to (or remove it from) a game in progress, every pawn in the world will end up with new randomly-assigned backstories. (On a related note, don't try to switch between regular and "lite mode" in the middle of a game, for the same reason.)
+"Editable Backstories" can safely be added to a game in progress, and any of its configuration settings can be changed at any time, without any affect on already-generated pawns. However, it should not be removed from a game in progress, as if it is, any pawns with backstories drawn from its database will have those backstories randomly reassigned.
 
 The mod is compatible with both "EdB Prepare Carefully" and "Verify Start."
 
@@ -48,11 +75,13 @@ Some of the C# code in "Editable Backstories" (specifically, the code that allow
 
 The mod utilizes Pardeike's "Harmony Patch Library." (No additional download is required, as the library is included with the mod.)
 
+Special thanks to Kiame Vivacity and Sumghai for handling the initial update of the mod from RimWorld b18 to b19 in my absence!
+
 =====
 
 License:
 
-If you're a modpack maker and want to include "Editable Backstories" in your pack, or if you're a modder and want to use it as the basis of a derivative mod, please feel free to do so. I ask only that you let me know about it. 
+If you're a modpack maker and want to include "Editable Backstories and Names" in your pack, or if you're a modder and want to use it as the basis of a derivative mod, please feel free to do so. I ask only that you let me know about it. 
 
 =====
 

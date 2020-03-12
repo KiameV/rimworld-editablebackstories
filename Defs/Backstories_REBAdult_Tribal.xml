@@ -13,6 +13,9 @@
 			<li><key>Crafting</key><value>2</value></li>
 			<li><key>Social</key><value>2</value></li>
 		</skillGains>
+		<forcedTraits>
+			<li><key>Undergrounder</key><value>0</value></li>
+		</forcedTraits>
 		<spawnCategories>
 			<li>Tribal</li>
 		</spawnCategories>
@@ -28,11 +31,13 @@
 			<li><key>Mining</key><value>6</value></li>
 			<li><key>Construction</key><value>4</value></li>
 		</skillGains>
+		<forcedTraits>
+			<li><key>Undergrounder</key><value>0</value></li>
+		</forcedTraits>
 		<spawnCategories>
 			<li>Tribal</li>
 		</spawnCategories>
-		<bodyTypeMale>Hulk</bodyTypeMale>
-		<bodyTypeFemale>Hulk</bodyTypeFemale>
+		<bodyTypeGlobal>Hulk</bodyTypeGlobal>
 	</REB_Code.BackstoryDef>
 
 	<REB_Code.BackstoryDef>
@@ -83,8 +88,7 @@
 			<li>Tribal</li>
 			<li>Uncommon</li>
 		</spawnCategories>
-		<bodyTypeMale>Thin</bodyTypeMale>
-		<bodyTypeFemale>Thin</bodyTypeFemale>
+		<bodyTypeGlobal>Thin</bodyTypeGlobal>
 	</REB_Code.BackstoryDef>
 
 	<REB_Code.BackstoryDef>
