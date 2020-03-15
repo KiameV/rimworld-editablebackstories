@@ -1566,7 +1566,6 @@ namespace REB_Code
 			BodyTypeDef bodyGlobal;
 			BodyTypeDef bodyMale;
 			BodyTypeDef bodyFemale;
-			float randBodyType;
 			if (pawn.story.adulthood != null)
 			{
 				bodyGlobal = pawn.story.adulthood.BodyTypeFor(Gender.None);
@@ -1579,44 +1578,45 @@ namespace REB_Code
 				bodyMale = pawn.story.childhood.BodyTypeFor(Gender.Male);
 				bodyFemale = pawn.story.childhood.BodyTypeFor(Gender.Female);
 			}
+
 			if (bodyGlobal != null)
 			{
 				pawn.story.bodyType = bodyGlobal;
 			}
 			else if ((bodyMale == BodyTypeDefOf.Male && pawn.gender == Gender.Male)
-			  || (bodyFemale == BodyTypeDefOf.Female && pawn.gender == Gender.Female))
+			         || (bodyFemale == BodyTypeDefOf.Female && pawn.gender == Gender.Female))
 			{
-				randBodyType = Rand.Value;
-				if (randBodyType < 0.05)
-				{
-					pawn.story.bodyType = BodyTypeDefOf.Hulk;
-				}
-				else if (randBodyType < 0.1)
-				{
-					pawn.story.bodyType = BodyTypeDefOf.Fat;
-				}
-				else if (randBodyType < 0.5)
-				{
-					pawn.story.bodyType = BodyTypeDefOf.Thin;
-				}
-				else if (pawn.gender == Gender.Female)
-				{
-					pawn.story.bodyType = BodyTypeDefOf.Female;
-				}
-				else
-				{
-					pawn.story.bodyType = BodyTypeDefOf.Male;
-				}
-			}
-			else if (pawn.gender == Gender.Female)
-			{
-				pawn.story.bodyType = bodyFemale;
+				AssignRandomBodyType(pawn);
 			}
 			else
 			{
-				pawn.story.bodyType = bodyMale;
+				pawn.story.bodyType = ((pawn.gender == Gender.Female) ? BodyTypeDefOf.Female : BodyTypeDefOf.Male);
 			}
+
+			if (pawn.story.bodyType == null)
+				AssignRandomBodyType(pawn);
 			return false;
+		}
+
+		private static void AssignRandomBodyType(Pawn pawn)
+		{
+			float randBodyType = Rand.Value;
+			if (randBodyType < 0.05)
+			{
+				pawn.story.bodyType = BodyTypeDefOf.Hulk;
+			}
+			else if (randBodyType < 0.1)
+			{
+				pawn.story.bodyType = BodyTypeDefOf.Fat;
+			}
+			else if (randBodyType < 0.5)
+			{
+				pawn.story.bodyType = BodyTypeDefOf.Thin;
+			}
+			else
+			{
+				pawn.story.bodyType = ((pawn.gender == Gender.Female) ? BodyTypeDefOf.Female : BodyTypeDefOf.Male);
+			}
 		}
 	}
 
